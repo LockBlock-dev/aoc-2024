@@ -16,6 +16,11 @@ path = "src/day2.rs"
 name = "day3"
 path = "src/day3.rs"
 
+[[bin]]
+name = "day4"
+path = "src/day4.rs"
+
 [dependencies]
+ndarray = "0.16.1"
 regex = "1.11.1"
 util = { version = "0.1.0", path = "util" }
